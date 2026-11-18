@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "voidechoes:block/void_moss"
+      },
+      {
+        "model": "voidechoes:block/void_moss",
+        "y": 90
+      },
+      {
+        "model": "voidechoes:block/void_moss",
+        "y": 180
+      },
+      {
+        "model": "voidechoes:block/void_moss",
+        "y": 270
+      }
+    ]
+  }
+}

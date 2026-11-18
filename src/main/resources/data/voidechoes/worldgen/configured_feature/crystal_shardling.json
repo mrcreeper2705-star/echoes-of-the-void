@@ -1,0 +1,29 @@
+{
+  "type": "voidechoes:crystal_spike",
+  "config": {
+    "body": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "voidechoes:resonant_crystal"
+      }
+    },
+    "collar": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "voidechoes:voidstone"
+      }
+    },
+    "tip": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "voidechoes:resonant_crystal"
+      }
+    },
+    "height": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 2,
+      "max_inclusive": 5
+    },
+    "lean": 0.6
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "voidechoes:surface_cover",
+  "config": {
+    "biome": "voidechoes:void_grove",
+    "top": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "voidechoes:void_moss"
+      }
+    },
+    "under": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:end_stone"
+      }
+    },
+    "depth": 0
+  }
+}

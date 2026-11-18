@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "voidechoes",
+  "version": "${version}",
+  "name": "Echoes of the Void",
+  "description": "Переосмысление Края: светящиеся рощи, кристальные шпили, пепельные пустоши, разрушенные святилища с сокровищами, парящие виспы и артефакты в духе приключенческих данжей.",
+  "authors": [
+    "voidechoes"
+  ],
+  "license": "MIT",
+  "icon": "assets/voidechoes/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.voidechoes.VoidEchoes"
+    ],
+    "client": [
+      "dev.voidechoes.client.VoidEchoesClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "betterend": "*"
+  },
+  "mixins": [
+    "voidechoes.mixins.json"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    {
+      "item": "voidechoes:aetherwood_log"
+    }
+  ],
+  "result": {
+    "id": "voidechoes:aetherwood_planks",
+    "count": 4
+  }
+}

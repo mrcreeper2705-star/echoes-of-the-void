@@ -1,0 +1,30 @@
+{
+  "type": "voidechoes:void_crafting",
+  "pattern": [
+    "M   M",
+    "MS SM",
+    "MSWSM",
+    " EAE "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:phantom_membrane"
+    },
+    "S": {
+      "item": "voidechoes:void_crystal_shard"
+    },
+    "W": {
+      "item": "minecraft:elytra"
+    },
+    "E": {
+      "item": "voidechoes:enderite_ingot"
+    },
+    "A": {
+      "item": "voidechoes:void_ooze_bucket"
+    }
+  },
+  "result": {
+    "id": "voidechoes:aether_wings",
+    "count": 1
+  }
+}

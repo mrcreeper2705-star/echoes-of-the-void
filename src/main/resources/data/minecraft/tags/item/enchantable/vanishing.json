@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "voidechoes:voidcrystal_sword",
+    "voidechoes:voidstep_charm",
+    "voidechoes:aether_wings",
+    "voidechoes:enderite_sword",
+    "voidechoes:enderite_pickaxe",
+    "voidechoes:enderite_axe",
+    "voidechoes:enderite_shovel",
+    "voidechoes:enderite_hoe",
+    "voidechoes:enderite_helmet",
+    "voidechoes:enderite_chestplate",
+    "voidechoes:enderite_leggings",
+    "voidechoes:enderite_boots"
+  ]
+}

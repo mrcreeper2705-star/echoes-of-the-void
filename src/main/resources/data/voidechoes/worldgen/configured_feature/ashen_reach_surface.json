@@ -1,0 +1,19 @@
+{
+  "type": "voidechoes:surface_cover",
+  "config": {
+    "biome": "voidechoes:ashen_reach",
+    "top": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "voidechoes:ashen_sand"
+      }
+    },
+    "under": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "voidechoes:ashen_sand"
+      }
+    },
+    "depth": 2
+  }
+}

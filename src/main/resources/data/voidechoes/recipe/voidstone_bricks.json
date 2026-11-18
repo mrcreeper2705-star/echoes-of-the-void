@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "VV",
+    "VV"
+  ],
+  "key": {
+    "V": {
+      "item": "voidechoes:voidstone"
+    }
+  },
+  "result": {
+    "id": "voidechoes:voidstone_bricks",
+    "count": 4
+  }
+}

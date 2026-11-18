@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "voidechoes:enderite_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "minecraft:netherite_pickaxe"
+  },
+  "addition": {
+    "item": "voidechoes:enderite_ingot"
+  },
+  "result": {
+    "id": "voidechoes:enderite_pickaxe",
+    "count": 1
+  }
+}

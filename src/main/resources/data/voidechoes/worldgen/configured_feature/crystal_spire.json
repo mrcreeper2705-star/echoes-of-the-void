@@ -1,0 +1,45 @@
+{
+  "type": "voidechoes:crystal_spike",
+  "config": {
+    "body": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 1,
+          "data": {
+            "Name": "voidechoes:resonant_crystal"
+          }
+        }
+      ]
+    },
+    "collar": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 3,
+          "data": {
+            "Name": "voidechoes:voidstone"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "voidechoes:voidstone_bricks"
+          }
+        }
+      ]
+    },
+    "tip": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "voidechoes:resonant_crystal"
+      }
+    },
+    "height": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 6,
+      "max_inclusive": 22
+    },
+    "lean": 0.35
+  }
+}

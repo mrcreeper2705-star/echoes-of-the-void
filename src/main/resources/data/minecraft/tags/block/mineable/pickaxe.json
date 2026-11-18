@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "voidechoes:void_moss",
+    "voidechoes:voidstone",
+    "voidechoes:voidstone_bricks",
+    "voidechoes:chiseled_voidstone",
+    "voidechoes:resonant_crystal",
+    "voidechoes:void_workbench",
+    "voidechoes:enderite_ore"
+  ]
+}

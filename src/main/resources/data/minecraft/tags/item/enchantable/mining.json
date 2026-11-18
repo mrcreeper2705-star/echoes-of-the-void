@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "voidechoes:enderite_pickaxe",
+    "voidechoes:enderite_axe",
+    "voidechoes:enderite_shovel",
+    "voidechoes:enderite_hoe"
+  ]
+}

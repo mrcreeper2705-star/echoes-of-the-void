@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "voidechoes:voidstone_bricks"
+    },
+    {
+      "item": "voidechoes:void_crystal_shard"
+    }
+  ],
+  "result": {
+    "id": "voidechoes:chiseled_voidstone",
+    "count": 1
+  }
+}

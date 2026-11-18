@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SCS",
+    "OTO",
+    "BBB"
+  ],
+  "key": {
+    "S": {
+      "item": "voidechoes:void_crystal_shard"
+    },
+    "C": {
+      "item": "voidechoes:chiseled_voidstone"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "T": {
+      "item": "minecraft:crafting_table"
+    },
+    "B": {
+      "item": "voidechoes:voidstone_bricks"
+    }
+  },
+  "result": {
+    "id": "voidechoes:void_workbench",
+    "count": 1
+  }
+}

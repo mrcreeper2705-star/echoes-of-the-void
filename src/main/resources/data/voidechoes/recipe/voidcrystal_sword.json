@@ -1,0 +1,30 @@
+{
+  "type": "voidechoes:void_crafting",
+  "pattern": [
+    " S ",
+    " C ",
+    "PNP",
+    " R "
+  ],
+  "key": {
+    "S": {
+      "item": "voidechoes:void_crystal_shard"
+    },
+    "C": {
+      "item": "minecraft:end_crystal"
+    },
+    "P": {
+      "item": "minecraft:ender_pearl"
+    },
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "R": {
+      "item": "minecraft:end_rod"
+    }
+  },
+  "result": {
+    "id": "voidechoes:voidcrystal_sword",
+    "count": 1
+  }
+}

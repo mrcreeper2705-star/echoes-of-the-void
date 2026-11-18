@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "voidechoes:enderite_helmet",
+    "voidechoes:enderite_chestplate",
+    "voidechoes:enderite_leggings",
+    "voidechoes:enderite_boots"
+  ]
+}

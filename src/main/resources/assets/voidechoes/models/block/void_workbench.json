@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "voidechoes:block/void_workbench_top",
+    "side": "voidechoes:block/void_workbench_side",
+    "bottom": "voidechoes:block/voidstone"
+  }
+}

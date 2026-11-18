@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "voidechoes:block/aetherwood_log_top",
+    "side": "voidechoes:block/aetherwood_log"
+  }
+}

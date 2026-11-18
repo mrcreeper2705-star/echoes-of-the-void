@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "voidechoes:block/aetherwood_log"
+    },
+    "axis=z": {
+      "model": "voidechoes:block/aetherwood_log",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "voidechoes:block/aetherwood_log",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

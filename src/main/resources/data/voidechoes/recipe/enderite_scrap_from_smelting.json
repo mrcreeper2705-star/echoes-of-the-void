@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": {
+    "item": "voidechoes:enderite_ore"
+  },
+  "result": {
+    "id": "voidechoes:enderite_scrap"
+  },
+  "experience": 2.0,
+  "cookingtime": 200
+}

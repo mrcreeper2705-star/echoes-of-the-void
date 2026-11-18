@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "SS",
+    "SS"
+  ],
+  "key": {
+    "S": {
+      "item": "voidechoes:void_crystal_shard"
+    }
+  },
+  "result": {
+    "id": "voidechoes:resonant_crystal",
+    "count": 1
+  }
+}

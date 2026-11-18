@@ -1,0 +1,40 @@
+{
+  "type": "voidechoes:crystal_spike",
+  "config": {
+    "body": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 4,
+          "data": {
+            "Name": "voidechoes:voidstone"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "voidechoes:ashen_sand"
+          }
+        }
+      ]
+    },
+    "collar": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "voidechoes:ashen_sand"
+      }
+    },
+    "tip": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "voidechoes:chiseled_voidstone"
+      }
+    },
+    "height": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 5,
+      "max_inclusive": 16
+    },
+    "lean": 0.5
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "ingredient": {
+    "item": "voidechoes:enderite_ore"
+  },
+  "result": {
+    "id": "voidechoes:enderite_scrap"
+  },
+  "experience": 2.0,
+  "cookingtime": 100
+}

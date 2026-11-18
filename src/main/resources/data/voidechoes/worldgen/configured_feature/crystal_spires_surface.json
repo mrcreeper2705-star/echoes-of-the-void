@@ -1,0 +1,30 @@
+{
+  "type": "voidechoes:surface_cover",
+  "config": {
+    "biome": "voidechoes:crystal_spires",
+    "top": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 6,
+          "data": {
+            "Name": "voidechoes:voidstone"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:end_stone"
+          }
+        }
+      ]
+    },
+    "under": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "voidechoes:voidstone"
+      }
+    },
+    "depth": 2
+  }
+}

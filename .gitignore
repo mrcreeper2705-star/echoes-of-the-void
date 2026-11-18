@@ -1,0 +1,12 @@
+# build output and local test world
+build/
+run/
+.gradle/
+out/
+*.class
+# release files go to GitHub Releases, not into git
+/voidechoes-*.jar
+*.mp4
+*.zip
+# the site uses a few vanilla Minecraft icons, so it is not part of the repository
+site/
