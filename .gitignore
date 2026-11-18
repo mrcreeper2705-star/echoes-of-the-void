@@ -10,3 +10,6 @@ out/
 *.zip
 # the site uses a few vanilla Minecraft icons, so it is not part of the repository
 site/
+# ...except the ready-to-download files
+!downloads/
+!downloads/*
