@@ -1039,6 +1039,16 @@ def vanilla_style_overlays():
     save_anim(frames, "item/void_ooze_bucket_fluid", 3)
 
 
+def recolor_from_vanilla():
+    """Armor and wings are vanilla netherite / elytra recolored (see recolor_vanilla.py)."""
+    if not VANILLA_JAR:
+        print("MC_CLIENT_JAR not set, skipping recolored armor and wings")
+        return
+    import subprocess
+    subprocess.run([sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), "recolor_vanilla.py"),
+                    VANILLA_JAR, ROOT], check=True)
+
+
 if __name__ == "__main__":
     vanilla_style_overlays()
     aether_wings()
@@ -1063,3 +1073,4 @@ if __name__ == "__main__":
     entity()
     icon()
     print("textures written to", TEX)
+    recolor_from_vanilla()   # last: overrides the hand-drawn armor and wings
