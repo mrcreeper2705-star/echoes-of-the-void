@@ -3,7 +3,7 @@
 Мод для **Minecraft 1.21.1 · Fabric**, который оживляет внешние острова Края.
 
 ## Скачать
-- **Мод:** [voidechoes-1.4.3.jar](https://github.com/mrcreeper2705-star/echoes-of-the-void/raw/main/downloads/voidechoes-1.4.3.jar)
+- **Мод:** [voidechoes-1.4.4.jar](https://github.com/mrcreeper2705-star/echoes-of-the-void/raw/main/downloads/voidechoes-1.4.4.jar)
 - Шаблон текстур брони: [EnderiteArmorTextures.zip](https://github.com/mrcreeper2705-star/echoes-of-the-void/raw/main/downloads/EnderiteArmorTextures.zip)
 - Трейлер: [trailer.mp4](https://github.com/mrcreeper2705-star/echoes-of-the-void/raw/main/downloads/trailer.mp4)
 

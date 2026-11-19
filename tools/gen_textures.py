@@ -873,7 +873,7 @@ def ooze():
                         c = mix(c, hexc("#c06cf0", 230), (v - 0.8) * 4)
                     img[y, x] = c
             for sx, sy, ph in stars:
-                yy = (sy - shift) % size if name.endswith("flow") else sy
+                yy = (sy + shift) % size if name.endswith("flow") else sy   # stars move with the flow
                 xx = sx if name.endswith("flow") else (sx + shift // 2) % size
                 k = 0.5 + 0.5 * math.sin((f / n + ph) * math.tau * 2)
                 if k > 0.35:
